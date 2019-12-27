@@ -9,6 +9,7 @@ It's a template for React application with Typescript, Jest library and other st
 
 <a name="instalation" />
 ## Instalation steps
+
 1. Clone this repository to destination folder.
 `git clone https://github.com/rkoziol/react-typescript-jest-boilerplate.git`
 2. Install dependencies.
@@ -18,6 +19,7 @@ It's a template for React application with Typescript, Jest library and other st
 
 <a name="scripts" />
 ## Available scripts
+
 `npm start` - run development server with hot reload mode,
 `npm build` - build distributon package,
 `npm run lint` - run lints,
