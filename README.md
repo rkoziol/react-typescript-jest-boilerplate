@@ -8,7 +8,8 @@ It's a template for React application with Typescript, Jest library and other st
 4. [Useful information](#information)
 
 <a name="instalation" />
-## Instalation steps
+
+### Instalation steps
 
 1. Clone this repository to destination folder.
 `git clone https://github.com/rkoziol/react-typescript-jest-boilerplate.git`
@@ -18,7 +19,8 @@ It's a template for React application with Typescript, Jest library and other st
 `npm start`
 
 <a name="scripts" />
-## Available scripts
+
+### Available scripts
 
 `npm start` - run development server with hot reload mode,
 `npm build` - build distributon package,
@@ -30,7 +32,8 @@ It's a template for React application with Typescript, Jest library and other st
 `npm run test:coverage` - run tests and generate coverage report.
 
 <a name="technology" />
-## Technology stack
+
+### Technology stack
 
 - [React with Hooks](https://pl.reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
@@ -40,7 +43,9 @@ It's a template for React application with Typescript, Jest library and other st
 - [Husky](https://github.com/typicode/husky)
 
 <a name="information" />
-## Useful information
+
+### Useful information
+
 I focused on separate logic from presentation layer of component, so components are created according to this scheme:
 - **index.tsx** - main file with component declaration. You can put here a React Hooks features (eg.: useState, useEffects etc.), prepare component props, do some base logic etc. This file should return component view layer with component props set.
 - **Component.tsx** - file with view layer of component.
