@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ES2015",
+    "target": "ES5",
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ]
+}
