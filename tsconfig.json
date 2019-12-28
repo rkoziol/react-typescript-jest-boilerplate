@@ -15,6 +15,7 @@
     "baseUrl": "./",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@routes/*": ["src/routes/"],
     },
   },
   "exclude": [

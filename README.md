@@ -48,6 +48,7 @@ It's a template for React application with Typescript, Jest library and other st
 ### Technology stack
 
 - [React with Hooks](https://pl.reactjs.org/)
+- [React Router](https://reacttraining.com/react-router/web/guides/quick-start)
 - [Typescript](https://www.typescriptlang.org/)
 - [Jest](https://jestjs.io/)
 - [Sass](https://sass-lang.com/)
@@ -67,5 +68,5 @@ I focused on separate logic from presentation layer of component, so components 
 Before You commit or push something on repository, Husky will run code lints and tests.
 The configuration files are in the main project folder.
 
-I will add application routing and redux usage soon. :)
+I will add redux usage soon. :)
 
