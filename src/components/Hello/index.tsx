@@ -6,5 +6,5 @@ import { Hello } from '@components/Hello/Hello';
 export default() => {
   const [componentProps, setComponentProps] = useState(initialComponentProps);
 
-  return (<Hello {...componentProps} />);
+  return <Hello {...componentProps} />;
 };
