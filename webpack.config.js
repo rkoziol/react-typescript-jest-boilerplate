@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const isDevelopment = process.env.NODE_ENV === 'development'
+const isDevelopment = process.env.NODE_ENV === 'development';
 
 module.exports = {
   entry: {
@@ -18,41 +18,44 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, '../dist'),
-    filename: 'app.min.js'
+    filename: 'app.min.js',
   },
   module: {
     rules: [
-      { 
-        test: /\.tsx?$/, 
+      {
+        test: /\.tsx?$/,
         exclude: /node_modules/,
-        loader: 'ts-loader'
-      }, {
+        loader: 'ts-loader',
+      },
+      {
         test: /\.s(a|c)ss$/,
         loader: [
-           isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
-        {
-                    loader: 'css-loader',
-                    options: {
-                      modules: true,
-                      sourceMap: isDevelopment
-                    }
-                  },
-                  {
-                    loader: 'sass-loader',
-                    options: {
-                      sourceMap: isDevelopment
-                    }
-                  }
-                ]
-              }
-        , {
+          isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              sourceMap: isDevelopment,
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: isDevelopment,
+            },
+          },
+        ],
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
-        use: [{
+        use: [
+          {
             loader: 'file-loader',
-            options: {}
-        }]
-      }
-    ]
+            options: {},
+          },
+        ],
+      },
+    ],
   },
   devServer: {
     historyApiFallback: true,
@@ -60,11 +63,11 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
     }),
     new MiniCssExtractPlugin({
       filename: isDevelopment ? '[name].css' : '[name].[hash].css',
-      chunkFilename: isDevelopment ? '[id].css' : '[id].[hash].css'
+      chunkFilename: isDevelopment ? '[id].css' : '[id].[hash].css',
     }),
-  ]
-}
+  ],
+};
