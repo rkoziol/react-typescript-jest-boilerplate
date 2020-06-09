@@ -1,25 +1,21 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Link,
-  Route,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
-import style from '@components/App/App.scss';
+import style from './App.scss';
 import { routes } from '@routes/index';
 
-export const App = () => (
+export const App = (): JSX.Element => (
   <div className={style.componentWrapper}>
     <Router>
       <h2>Hello App</h2>
       <nav className={style.routingWrapper}>
         <b>Routing: </b>
-        <Link to='/'>Hello</Link>
-        <Link to='/world'>World</Link>
+        <Link to="/">Hello</Link>
+        <Link to="/world">World</Link>
       </nav>
-      <div className={style.routeWrapper}>
-        {routes.map((route) => (
-          <Route {...route} />
+      <div>
+        {routes.map((route, index) => (
+          <Route key={index} {...route} />
         ))}
       </div>
     </Router>
