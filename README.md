@@ -54,6 +54,8 @@ It's a template for React application with Typescript, Jest library and other st
 - [Sass](https://sass-lang.com/)
 - [Webpack](https://webpack.js.org/)
 - [Husky](https://github.com/typicode/husky)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
 <a name="information" />
 
