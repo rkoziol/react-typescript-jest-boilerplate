@@ -1,4 +1,4 @@
-import { initialComponentProps } from '@components/Hello/handlers';
+import { initialComponentProps, dummyFunc } from '@components/Hello/handlers';
 
 describe('Hello component handlers specs', () => {
   describe('initialComponentProps', () => {
@@ -11,6 +11,16 @@ describe('Hello component handlers specs', () => {
         bar: 'Ipsum',
         foo: 'Lorem',
       });
+    });
+  });
+
+  describe('dummyFunc', () => {
+    test('should return number', () => {
+      // when
+      const result = dummyFunc(1, 2);
+
+      // then
+      expect(result).toEqual(3);
     });
   });
 });

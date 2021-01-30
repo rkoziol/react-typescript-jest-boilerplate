@@ -1,19 +1,13 @@
 module.exports = {
-  coverageDirectory: "<rootDir>/test-coverage",
-  globals: {
-    "ts-jest": {
-        "diagnostics": false,
-        "tsConfig": "<rootDir>/tsconfig.json",
-    },
-  },
-  moduleFileExtensions: ["ts", "tsx", "js", "json"],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   moduleNameMapper: {
-    "\\.scss$": "identity-obj-proxy",
-    "^@components/(.*)$": "<rootDir>/src/components/$1",
+    '\\.scss$': 'identity-obj-proxy',
+    '^@components/(.*)$': '<rootDir>/src/components/$1',
   },
-  roots: ["<rootDir>/tests"],
-  testMatch: ["./**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+  collectCoverageFrom: ['<rootDir>/**/*.{ts, tsx}'],
+  roots: ['<rootDir>'],
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$',
   transform: {
-    "^.+\\.(ts|tsx)$": "ts-jest",
+    '^.+\\.(ts|tsx)$': 'ts-jest',
   },
 };
