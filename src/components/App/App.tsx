@@ -7,7 +7,7 @@ import { routes } from '@routes/index';
 export const App = (): JSX.Element => (
   <div className={style.componentWrapper}>
     <Router>
-      <h2>Hello App</h2>
+      <h2>Hello World from CS501</h2>
       <nav className={style.routingWrapper}>
         <b>Routing: </b>
         <Link to="/">Hello</Link>
