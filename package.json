@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --open --hot --config ./webpack.config.js",
     "build": "webpack --mode production --config ./webpack.config.js",
     "lint": "npm run lint:code && npm run lint:style",
-    "lint:code": "eslint src/**/*.{js,ts,tsx} --quiet",
+    "lint:code": "eslint src/**/*.{js,ts,tsx} --quiet --no-error-on-unmatched-pattern",
     "lint:style": "stylelint src/**/*.scss",
     "test": "jest --config=jest.config.js",
     "test:watch": "jest --config=jest.config.js --watch",
