@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-jest-boilerplate",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "Boilerplate for React app with Typescript and Jest lib",
   "main": "index.js",
   "scripts": {
