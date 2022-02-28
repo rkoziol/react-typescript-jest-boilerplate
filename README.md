@@ -69,6 +69,3 @@ I focused on separate logic from presentation layer of component, so components 
 
 Before You commit or push something on repository, Husky will run code lints and tests.
 The configuration files are in the main project folder.
-
-I will add redux & context API soon.
-
