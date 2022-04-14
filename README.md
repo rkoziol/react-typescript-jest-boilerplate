@@ -2,11 +2,10 @@
 
 It's a template for React application with Typescript, Jest library and other stuff that can be helpful for you - feel free to use it!
 
-- [React | Typescript | Jest - application boilerplate](#react--typescript--jest---application-boilerplate)
-    - [Instalation steps](#instalation-steps)
-    - [Available scripts](#available-scripts)
-    - [Technology stack](#technology-stack)
-    - [Useful information](#useful-information)
+- [Instalation steps](#instalation-steps)
+- [Available scripts](#available-scripts)
+- [Technology stack](#technology-stack)
+- [Useful information](#useful-information)
 
 <a name="instalation" />
 
