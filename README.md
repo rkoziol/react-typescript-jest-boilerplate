@@ -57,7 +57,7 @@ It's a template for React application with Typescript, Jest library and other st
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width='30'> | Sass | 1.50.0 | <https://sass-lang.com/>
 | <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.72.0 | <https://webpack.js.org/>
 | <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width='30'> | ESLint | 7.32.0 | <https://eslint.org/>
-| <img src="<https://prettier.io/>icon.png" width='30'> | Prettier | 2.6.2 | https://prettier.io/
+| <img src="https://prettier.io/icon.png" width='30'> | Prettier | 2.6.2 | https://prettier.io/
 | <img src="https://media.istockphoto.com/vectors/cute-brown-siberian-husky-dog-sitting-cartoon-icon-vector-vector-id1238710824?k=20&m=1238710824&s=170667a&w=0&h=m4N_3us1MDDnMa-mWIGxyrYvgd9FRq0A67ziTCy7ZZw=" width='30'> | Husky | 7.0.4 | <https://github.com/typicode/husky>
 
 <a name="information" />
