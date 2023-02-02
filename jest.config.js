@@ -9,5 +9,6 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$',
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.svg$': '<rootDir>/utils/svgTransform.js',
   },
 };
