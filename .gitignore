@@ -2,3 +2,5 @@ node_modules
 test-coverage
 .history
 dist
+tests/cypress/video
+tests/cypress/screenshots

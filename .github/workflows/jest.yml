@@ -25,4 +25,4 @@ jobs:
     - name: Jest tests
       run: |
         npm install
-        npm run test
+        npm run test:jest
