@@ -16,9 +16,12 @@
     "paths": {
       "@components/*": ["src/components/*"],
     },
+    "types": ["jest", "node"]
   },
   "exclude": [
     "node_modules",
     "dist",
+    "./tests/cypress",
+    "./cypress.config.ts",
   ]
 }
