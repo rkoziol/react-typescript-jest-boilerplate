@@ -36,13 +36,21 @@ It's a template for React application with Typescript, Jest library and other st
 
 `npm run lint:code` - run lint for typescript / javascript files,
 
+`npm run lint:code:fix` - run lint for typescript / javascript files with auto fix option,
+
 `npm run lint:style` - run lint for style files,
 
-`npm test` - run tests,
+`npm run lint:style:fix` - run lint for style files with auto fix option,
 
-`npm run test:watch` - run tests with watch mode,
+`npm run test:jest` - run Jest tests,
 
-`npm run test:coverage` - run tests and generate coverage report.
+`npm run test:jest:watch` - run Jest tests with watch mode,
+
+`npm run test:jest:coverage` - run Jest tests and generate coverage report,
+
+`npm run test:cypress` - run Cypress tests in terminal,
+
+`npm run test:cypress:open` - open Cypress application.
 
 <a name="technology" />
 
@@ -54,6 +62,7 @@ It's a template for React application with Typescript, Jest library and other st
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width='30'> | React | 18.2.0 | <https://reactjs.org/>
 | <img src="https://seeklogo.com/images/R/react-router-logo-AB5BFB638F-seeklogo.com.png" width='30'> | React Router Dom | 6.8.0 | <https://v5.reactrouter.com/web/guides/quick-start>
 | <img src="https://iconape.com/wp-content/png_logo_vector/jest-logo.png" width='30'> | Jest | 29.4.1 | <https://jestjs.io/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png" width='30'> | Cypress | 12.5.0 | <https://www.cypress.io/>
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width='30'> | Sass | 1.58.0 | <https://sass-lang.com/>
 | <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.75.0 | <https://webpack.js.org/>
 | <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width='30'> | ESLint | 8.33.0 | <https://eslint.org/>
