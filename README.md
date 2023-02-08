@@ -1,4 +1,4 @@
-# React | Typescript | Jest - application boilerplate
+# React | Typescript | Jest | Cypress - application boilerplate
 
 It's a template for React application with Typescript, Jest library and other stuff that can be helpful for you - feel free to use it!
 
