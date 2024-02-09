@@ -2,7 +2,7 @@
 
 It's a template for React application with Typescript, Jest library and other stuff that can be helpful for you - feel free to use it!
 
-- [React | Typescript | Jest - application boilerplate](#react--typescript--jest---application-boilerplate)
+- [React | Typescript | Jest | Cypress - application boilerplate](#react--typescript--jest--cypress---application-boilerplate)
     - [Instalation steps](#instalation-steps)
     - [Available scripts](#available-scripts)
     - [Technology stack](#technology-stack)
@@ -62,9 +62,9 @@ It's a template for React application with Typescript, Jest library and other st
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width='30'> | React | 18.2.0 | <https://reactjs.org/>
 | <img src="https://seeklogo.com/images/R/react-router-logo-AB5BFB638F-seeklogo.com.png" width='30'> | React Router Dom | 6.8.0 | <https://v5.reactrouter.com/web/guides/quick-start>
 | <img src="https://iconape.com/wp-content/png_logo_vector/jest-logo.png" width='30'> | Jest | 29.4.1 | <https://jestjs.io/>
-| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png" width='30'> | Cypress | 12.5.0 | <https://www.cypress.io/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png" width='30'> | Cypress | 13.6.4 | <https://www.cypress.io/>
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width='30'> | Sass | 1.58.0 | <https://sass-lang.com/>
-| <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.75.0 | <https://webpack.js.org/>
+| <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.90.1 | <https://webpack.js.org/>
 | <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width='30'> | ESLint | 8.33.0 | <https://eslint.org/>
 | <img src="https://prettier.io/icon.png" width='30'> | Prettier | 2.8.3 | https://prettier.io/
 | <img src="https://media.istockphoto.com/vectors/cute-brown-siberian-husky-dog-sitting-cartoon-icon-vector-vector-id1238710824?k=20&m=1238710824&s=170667a&w=0&h=m4N_3us1MDDnMa-mWIGxyrYvgd9FRq0A67ziTCy7ZZw=" width='30'> | Husky | 8.0.3 | <https://github.com/typicode/husky>
