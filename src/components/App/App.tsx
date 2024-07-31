@@ -4,13 +4,13 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Hello from '@components/Hello';
 import World from '@components/World';
 
-import style from './App.scss';
+import './App.scss';
 
 export const App = (): JSX.Element => (
-  <div className={style.componentWrapper}>
+  <div className="componentWrapper">
     <h2>Hello App</h2>
     <BrowserRouter>
-      <nav className={style.routingWrapper}>
+      <nav className="routingWrapper">
         <b>Routing: </b>
         <Link to="/">Hello component</Link>
         <Link to="/world">World component</Link>

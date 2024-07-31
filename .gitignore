@@ -4,3 +4,4 @@ test-coverage
 dist
 tests/cypress/video
 tests/cypress/screenshots
+coverage
