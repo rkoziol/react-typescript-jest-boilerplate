@@ -18,6 +18,9 @@ module.exports = {
     path: path.join(__dirname, './dist'),
     filename: 'app.min.js',
   },
+  target: ["web", "es5"],
+  stats: { children: true },
+  mode: "development",
   module: {
     rules: [
       {
@@ -26,25 +29,8 @@ module.exports = {
         loader: 'ts-loader',
       },
       {
-        test: /\.s(a|c)ss$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              modules: {
-                localIdentName: '[local]',
-              },
-              sourceMap: true,
-            },
-          },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
-        ],
+        test: /\.scss$/,
+        use: ['style-loader','css-loader', 'sass-loader']
       },
       {
         test: /\.(ttf|woff|woff2)$/,
@@ -62,6 +48,9 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    compress: true,
+    port: 8080,
+    open: true,
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

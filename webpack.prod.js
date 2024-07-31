@@ -18,6 +18,9 @@ module.exports = {
     path: path.join(__dirname, './dist'),
     filename: 'app.min.js',
   },
+  target: ["web", "es5"],
+  stats: { children: true },
+  mode: "production",
   module: {
     rules: [
       {

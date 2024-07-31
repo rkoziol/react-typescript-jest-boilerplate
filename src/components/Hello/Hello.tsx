@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import style from './Hello.scss';
+import './Hello.scss';
 
 interface IHelloProps {
   foo: string;
@@ -8,7 +8,7 @@ interface IHelloProps {
 }
 
 export const Hello = (props: IHelloProps): JSX.Element => (
-  <div className={style.sample}>
+  <div className="sample">
     Hello from {props.foo} and {props.bar}!
   </div>
 );
