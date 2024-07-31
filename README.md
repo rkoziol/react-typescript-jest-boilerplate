@@ -58,16 +58,16 @@ It's a template for React application with Typescript, Jest library and other st
 
 |   | Name | Version | Docs |
 |-------|-----------------|-------------|------|
-| <img src="https://cdn.worldvectorlogo.com/logos/typescript-2.svg" width='30'> | Typescript | 4.9.5 | <https://www.typescriptlang.org/>
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width='30'> | React | 18.2.0 | <https://reactjs.org/>
-| <img src="https://seeklogo.com/images/R/react-router-logo-AB5BFB638F-seeklogo.com.png" width='30'> | React Router Dom | 6.8.0 | <https://v5.reactrouter.com/web/guides/quick-start>
-| <img src="https://iconape.com/wp-content/png_logo_vector/jest-logo.png" width='30'> | Jest | 29.4.1 | <https://jestjs.io/>
-| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png" width='30'> | Cypress | 13.6.4 | <https://www.cypress.io/>
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width='30'> | Sass | 1.58.0 | <https://sass-lang.com/>
-| <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.90.1 | <https://webpack.js.org/>
-| <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width='30'> | ESLint | 8.33.0 | <https://eslint.org/>
-| <img src="https://prettier.io/icon.png" width='30'> | Prettier | 2.8.3 | https://prettier.io/
-| <img src="https://media.istockphoto.com/vectors/cute-brown-siberian-husky-dog-sitting-cartoon-icon-vector-vector-id1238710824?k=20&m=1238710824&s=170667a&w=0&h=m4N_3us1MDDnMa-mWIGxyrYvgd9FRq0A67ziTCy7ZZw=" width='30'> | Husky | 8.0.3 | <https://github.com/typicode/husky>
+| <img src="https://cdn.worldvectorlogo.com/logos/typescript-2.svg" width='30'> | Typescript | 5.5.4 | <https://www.typescriptlang.org/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" width='30'> | React | 18.3.1 | <https://reactjs.org/>
+| <img src="https://seeklogo.com/images/R/react-router-logo-AB5BFB638F-seeklogo.com.png" width='30'> | React Router Dom | 6.25.1 | <https://v5.reactrouter.com/web/guides/quick-start>
+| <img src="https://iconape.com/wp-content/png_logo_vector/jest-logo.png" width='30'> | Jest | 29.7.0 | <https://jestjs.io/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png" width='30'> | Cypress | 13.13.1 | <https://www.cypress.io/>
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" width='30'> | Sass | 1.77.8 | <https://sass-lang.com/>
+| <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" width='30'> | Webpack | 5.93.0 | <https://webpack.js.org/>
+| <img src="https://cdn.worldvectorlogo.com/logos/eslint.svg" width='30'> | ESLint | 8.57.0 | <https://eslint.org/>
+| <img src="https://prettier.io/icon.png" width='30'> | Prettier | 3.3.3 | https://prettier.io/
+| <img src="https://media.istockphoto.com/vectors/cute-brown-siberian-husky-dog-sitting-cartoon-icon-vector-vector-id1238710824?k=20&m=1238710824&s=170667a&w=0&h=m4N_3us1MDDnMa-mWIGxyrYvgd9FRq0A67ziTCy7ZZw=" width='30'> | Husky | 9.1.4 | <https://github.com/typicode/husky>
 
 <a name="information" />
 
